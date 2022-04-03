@@ -1,0 +1,10 @@
+# Move the directory to the second line
+format = """
+  $username\
+  $directory\
+	$git_branch
+  $character\
+  """
+
+add_newline = true
+
