@@ -1,7 +1,7 @@
 mypath="$(cd "$(dirname "$1")"; pwd -P)/$(basename "$1")"
 
-apt update
-apt -y upgrade
+sudo apt update
+sudo apt -y upgrade
 
 # uninstall
 source ${mypath}/install/uninstall.sh
@@ -14,6 +14,7 @@ source ${mypath}/install/install-rust.sh
 source ${mypath}/install/install-docker.sh
 source ${mypath}/install/install-zinit.sh
 source ${mypath}/install/install-starship.sh
+source ${mypath}/install/install-nvim.sh
 
 # zsh configuration
 cat ${mypath}/zshConfig/zsh-config.sh >> $HOME/.zshrc
