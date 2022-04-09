@@ -17,4 +17,4 @@ zinit load agkozak/zsh-z
 zinit ice depth=1
 zinit light jeffreytse/zsh-vi-mode
 
-echo 'eval "$(starship init zsh)"' >> $HOME/.zshrc
+eval "$(starship init zsh)"
