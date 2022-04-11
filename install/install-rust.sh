@@ -9,10 +9,10 @@ then
   rm -rf cargo
 fi
 
-if ! command -v zellij &> /dev/null
-then
-	cargo install zellij
-fi
+# if ! command -v zellij &> /dev/null
+# then
+# 	cargo install zellij
+# fi
 
 if ! command -v fcp &> /dev/null
 then
@@ -47,4 +47,34 @@ fi
 if ! command -v exa &> /dev/null
 then
 	cargo install exa
+fi
+
+if ! command -v ytop &> /dev/null
+then
+  cargo install ytop
+fi
+
+if ! command -v dust &> /dev/null
+then
+  cargo install du-dust
+fi
+
+if ! command -v procs &> /dev/null
+then
+  cargo install procs
+fi
+
+if ! command -v tokei &> /dev/null
+then
+  cargo install tokei
+fi
+
+if ! command -v dust &> /dev/null
+then
+  cargo install dust
+fi
+
+if ! command -v procs &> /dev/null
+then
+  cargo install procs
 fi
