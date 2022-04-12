@@ -78,3 +78,23 @@ if ! command -v procs &> /dev/null
 then
   cargo install procs
 fi
+
+if ! command -v diffr &> /dev/null
+then
+  cargo install diffr
+fi
+
+if ! command -v onefetch &> /dev/null
+then
+  cargo install onefetch
+fi
+
+if ! command -v delta &> /dev/null
+then
+  cargo install delta
+fi
+
+if ! command -v hexyl &> /dev/null
+then
+  cargo install hexyl
+fi
