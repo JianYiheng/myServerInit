@@ -69,16 +69,6 @@ then
   cargo install tokei
 fi
 
-if ! command -v dust &> /dev/null
-then
-  cargo install dust
-fi
-
-if ! command -v procs &> /dev/null
-then
-  cargo install procs
-fi
-
 if ! command -v diffr &> /dev/null
 then
   cargo install diffr
